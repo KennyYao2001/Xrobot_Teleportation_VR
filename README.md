@@ -28,7 +28,7 @@ The main logic behind the Teleoperation, using multiple threads to send data and
 Designed in Unity 21 for quest 2. This is an application for Pizza Robot Teleporation. It is built up on https://github.com/Abraham190137/TeleoperationUnity.
 
 ## qb softhand Teleporation (optional)
-The work space of qb hand is locate at ``.
+The work space of qb hand is locate at `/home/xrobot/qb_ws`.
 If use qb softhand, remember to modified `USE_ROBOHAND` in VR_Teleoperation_Pizza.py to True. and `-g 0` in launch_VR_Tele.sh. 
 
 ## Data Collection codebase
