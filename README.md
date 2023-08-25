@@ -73,6 +73,9 @@ Launch 2 realsense D345i and 2 Azure Kinect DK camera with no depth information.
 Kill all the terminals.
 
 ## Start and record
+- `python3 /home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/save_auto_play_poses.py`
+Iteration through all the objects and update pose. Remember not to get too close to the object and make sure the trajectory will not run into objects.
+You can test the trajectory by running the python3 `/home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/auto_play.py`
 - `python3 /home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/auto_run.bash`
 Number of iteration is how many tasks you want to complete.
 For Mode, Enter 0 for single object task, Enter 1 for random combination of tasks.
