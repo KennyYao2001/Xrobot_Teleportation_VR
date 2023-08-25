@@ -55,3 +55,18 @@ Press `A` for resume the teleportation. Press `B` for get back to main scene. If
 Start telepertation and the UDP connection for VR connection and server. If no messages, ctrl+C to quit. If no error happens, can continuely run it.
 - `python3 /home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/sync_data_collection.py`
 Run the script and start collecting data when the robot is in position. Run once for every task skills. Write the skill number as the task name. Press `Enter` to stop recording. Press `y` to save and `n` to delete the recoding.
+
+# Auto-collect Step
+
+## Setup Server
+- `bash launch_VR_Tele.sh`
+Launch 3 Termials for franka interface. 
+ - `bash launch_4_cameras_only_rgb.sh`
+Launch 2 realsense D345i and 2 Azure Kinect DK camera with no depth information. The frequenze is 15 HZ.
+ - `bash kill_terminals.sh`
+Kill all the terminals.
+
+## Start and record
+- `python3 /home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/auto_run.bash`
+Number of iteration is how many tasks you want to complete.
+For Mode, Enter 0 for single object task, Enter 1 for random combination of tasks.
