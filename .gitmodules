@@ -1,3 +1,0 @@
-[submodule "frankapy"]
-	path = frankapy
-	url = https://github.com/iamlab-cmu/franka-interface-msgs.git
