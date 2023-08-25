@@ -25,7 +25,7 @@ The main logic behind the Teleoperation, using multiple threads to send data and
  location: `/home/xrobot/TeleoperationUnity/frankapy/examples/record_trajectory.py` and `/home/xrobot/TeleoperationUnity/frankapy/examples/run_recorded_trajectory.py`
 
 ## VR Teleperation VR Applications
-Designed in Unity 21 for quest 2. This is an application for Pizza Robot Teleporation. It is built up on https://github.com/Abraham190137/TeleoperationUnity using the ThinkPad Windows 10. If want to rebuild the software, please connect the quest 2 and the computer, and launch the UnityHub and Enter this porject. Click Run and Build to launch the apk to the quest2. The current version of app is call `pizza_Tele_final.apk`.
+Designed in Unity 21 for quest 2. This is an application for Pizza Robot Teleporation. It is built up on https://github.com/Abraham190137/TeleoperationUnity using the ThinkPad Windows 10. If want to rebuild the software, please connect the quest 2 and the computer, and launch the UnityHub and Enter this porject. Click Run and Build to launch the apk to the quest2. The current version of app is call `Pizza_Tele_Final.apk`.
 
 ## qb softhand Teleporation (optional)
 The work space of qb hand is locate at `/home/xrobot/qb_ws`.
