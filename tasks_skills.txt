@@ -1,0 +1,24 @@
+1, Plug
+2, Press
+3, Twist
+4, pick_brush
+5, pick_bakeware
+6, pick_spoon
+7, pick_tool
+8, pick_bowl
+# 9, squeeze
+10, smooth_sauce
+11, sprinkle
+# 12, smooth_chess
+13, pour
+14, place_brush
+15, place_bowl
+16, place_bakeware
+17, place_spoon
+18, place_tool
+19, open
+20, close
+21, out
+22, cut
+
+# means leave out
