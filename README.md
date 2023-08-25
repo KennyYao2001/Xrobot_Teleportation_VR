@@ -19,9 +19,9 @@ The main logic behind the Teleoperation, using multiple threads to send data and
 ### Utils
  - Reset arm and gripper
  location: `/home/xrobot/TeleoperationUnity/frankapy/scripts/reset_arm.py`
- - Run Auto play without tracking to see the recorded pose
+ - Run Auto play without tracking to iterate through the recorded pose
  location: `/home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/auto_play.py`
- - Run and upate the auto play recording pose
+ - Run and upate the auto play recording pose. The recorded pose are save at `/home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/save_poses.json`.
  location: `/home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/save_auto_play_poses.py`
  - Run a pre-designed dynamic trajectory demo
  location: `/home/xrobot/TeleoperationUnity/frankapy/examples/run_dynamic_pose.py`
