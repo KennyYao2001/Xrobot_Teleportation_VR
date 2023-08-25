@@ -1,6 +1,6 @@
 # VR Pizza Robot Data Collection Pipline
 
-The pipline was designed to collect the pizza making data in real world Franka Research 2 Robot. The gripper can be the orginal 2-finger gripper or the qb soft hand research 2 teleprotated by sense glove Nova.
+The pipline was designed to collect the pizza making data in real world using Franka Research 2 Robot. The gripper can be the orginal 2-finger gripper or the qb soft hand research 2 teleprotated by sense glove Nova.
 
 # Files
 
@@ -14,7 +14,7 @@ We intialize the arm and make teleoperation connection between VR Quest 2 and th
 
 ### Teleoperation.py
 location:`/home/xrobot/TeleoperationUnity/frankapy/examples/Teleoperation.py`.
-The main logic behind the Teleoperation, using multiple threads to send data and recieve data between from server and VR application. 
+The main logic behind the Teleoperation, using multiple threads to send data and recieve data between server and VR application. 
 
 ### Utils
  - Reset arm and gripper
@@ -34,7 +34,7 @@ If use qb softhand, remember to modified `USE_ROBOHAND` in VR_Teleoperation_Pizz
 ## Data Collection codebase
 location:`/home/xrobot/moveit_ws/XRobot/Code/codebase/src/pizza_robot/sync_data_collection.py`.
 
-The script use threads to collect images from 4 camera using ROS and robot information using FrankaArm.
+The script use threads to collect images from 4 camera using ROS and robot information using FrankaArm. You can set the frequency in config.json.
 
 ### Utils
  - Run Auto play without tracking to iterate through the recorded pose
@@ -48,7 +48,7 @@ The script use threads to collect images from 4 camera using ROS and robot infor
 - `bash launch_VR_Tele.sh`
 Launch 3 Termials for franka interface. 
  - `bash launch_4_cameras_only_rgb.sh`
-Launch 2 realsense D345i and 2 Azure Kinect DK camera with no depth information. The frequenze is 15 HZ.
+Launch 2 realsense D345i and 2 Azure Kinect DK camera with no depth information. The frequency is 15 HZ.
  - `bash kill_terminals.sh`
 Kill all the terminals.
 
